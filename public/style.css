@@ -1,0 +1,10 @@
+.body{
+    font-family: Lucida Console, Courier, monospace;
+}
+
+.navbar-default {
+  background-color: #ffea07;
+  color: black;
+  background-image: none;
+  background-repeat: no-repeat;
+ }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Chatmoji</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.dev.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <link rel="stylesheet" href="/style.css"/>
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <a class="navbar-brand" href="#">Chatmoji</a>
+        </nav>
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-md-9" style="height: 500px; background-color: #eabaf2" id="output">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="username" placeholder="Enter Username">
+                            <input type="text" class="form-control" id="message" placeholder="Enter a message...">
+                        </div>
+                    </form>
+                </div>
+
+                <br /> <br />
+
+                <div class="col-md-2 col-lg-2">
+                    <input type="button" id="send" value="Send"/>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="/chat.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    </body>
+</html>
