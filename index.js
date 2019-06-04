@@ -3,8 +3,8 @@ var socket = require('socket.io');
 
 //Setting up the app
 var app = express();
-var server = app.listen(4200, function(){
-    console.log('Listening on 4200.');
+var server = app.listen(420, function(){
+    console.log('Listening on 420.');
 });
 
 //Static files
