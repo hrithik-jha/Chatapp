@@ -17,5 +17,5 @@ btn.addEventListener('click', function(){
 });
 //Listen to events
 socket.on('chat', function(data){
-    output.innerHTML += '<p><strong>' + data.handle + ': </strong>' + data.message + '</p>';
+    output.innerHTML += '<p><strong>' + data.handle + '-> </strong>' + data.message + '</p>';
 });
